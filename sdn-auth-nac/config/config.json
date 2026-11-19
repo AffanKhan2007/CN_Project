@@ -1,0 +1,21 @@
+{
+  "network": {
+    "auth_ip": "10.0.0.4",
+    "protected_ip": "10.0.0.5",
+    "controller_ip": "10.0.0.254",
+    "auth_port": 9000,
+    "event_port": 9100,
+    "web_port": 8080,
+    "data_port": 9090
+  },
+  "session_ttl": 60,
+  "max_failed_attempts": 3,
+  "fail_window_secs": 60,
+  "block_secs": 30,
+  "static_allowed_ips": ["10.0.0.1", "10.0.0.2"],
+  "roles": {
+    "admin": ["*"],
+    "user":  ["icmp", "tcp:8080"],
+    "guest": ["tcp:8080"]
+  }
+}

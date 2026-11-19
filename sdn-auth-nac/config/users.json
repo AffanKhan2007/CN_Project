@@ -1,0 +1,18 @@
+{
+  "alice": {
+    "hash": "4e40e8ffe0ee32fa53e139147ed559229a5930f89c2204706fc174beb36210b3",
+    "role": "admin"
+  },
+  "bob": {
+    "hash": "8d059c3640b97180dd2ee453e20d34ab0cb0f2eccbe87d01915a8e578a202b11",
+    "role": "user"
+  },
+  "carol": {
+    "hash": "6868b751d7c664a9492079bfb2858c86cc95f9480270413e334ed09fe94cf10d",
+    "role": "user"
+  },
+  "guest": {
+    "hash": "6b93ccba414ac1d0ae1e77f3fac560c748a6701ed6946735a49d463351518e16",
+    "role": "guest"
+  }
+}
